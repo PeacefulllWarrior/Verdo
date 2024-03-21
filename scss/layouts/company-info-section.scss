@@ -1,0 +1,136 @@
+
+.company-info-section{
+    display: flex;
+padding: 12px;
+justify-content: space-around;
+display: flex;
+flex-wrap: wrap;
+gap: 12px;
+  &__map-img{
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 4px white;
+    // @media screen and (min-width:$bp-mobile) {
+    //     font-size: 76px;
+    //     }
+      
+    //     @media screen and (min-width:$bp-tablet) {
+    //         font-size: 76px;
+    //         }
+          
+    //         @media screen and (min-width:$bp-desktop) {
+    //             font-size: 76px;
+    //             }
+              
+        
+  }
+}
+
+
+.company-info-section-work{
+text-align: center;
+  &__title{
+    margin: 0 auto;
+    color: var(--color-brand-light);
+    text-shadow: -5px 2px 4px var(--color-1-green);
+    font-size: 34px;
+
+    @media screen and (min-width:$bp-mobile) {
+          font-size: 36px;
+          }
+        
+          @media screen and (min-width:$bp-tablet) {
+              font-size: 46px;
+              }
+            
+              @media screen and (min-width:$bp-desktop) {
+                  font-size: 124px;
+                  }
+                
+  }
+
+  &__text{
+    text-shadow: -5px 2px 4px var(--color-brand-light);
+    font-size: 24px;
+    @media screen and (min-width:$bp-mobile) {
+          font-size: 32px;
+          }
+        
+          @media screen and (min-width:$bp-tablet) {
+              font-size: 44px;
+              }
+            
+              @media screen and (min-width:$bp-desktop) {
+                  font-size: 52px;
+                  }
+                
+  }
+  transform: translateY(-90px);
+}
+.element-show {
+  opacity: 1;
+  transition: all 1s;
+  transform: translateX(0);
+  transform: translateY(0);
+}
+
+
+
+
+// .hero-section {
+//     padding: 64px 0;
+//     background-size: cover;
+//     background-image: linear-gradient(103deg, rgba(18, 18, 17, 0.78) 2.03%, rgba(18, 18, 17, 0.60) 58.46%, rgba(18, 18, 17, 0.00) 90.36%), url(../images/hero-main.jpg ) ;
+//     background-repeat: no-repeat;
+//     background-position: center top;
+//     margin-bottom: 12px;
+//     @media screen and (min-width:$bp-desktop) {
+//         padding: 182px 0;
+//         margin-bottom: 32px;
+//     }
+//     @media screen and (min-width:$bp-tablet) {
+//         padding: 122px 0;
+//         margin-bottom: 24px;
+//     }
+    
+
+//     &__title {
+//         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+//             margin-bottom: 0;
+//             color: var(--color-brand-light);
+//             text-align: center;
+//             font-size: 48px;
+//             line-height: 1;
+//             font-weight: 600;
+//             margin-bottom: 48px;
+
+//             &__animate {
+//                 animation: fadeInDown 1s forwards;
+//               }
+//               @keyframes fadeInDown {
+//                 from {
+//                   opacity: 0;
+//                   transform: translateY(-50px);
+//                 }
+//                 to {
+//                   opacity: 1;
+//                   transform: translateY(0);
+//                 }
+//               }
+        //       @media screen and (min-width:$bp-mobile) {
+        //         font-size: 76px;
+        //         }
+              
+
+        //     @media screen and (min-width:$bp-desktop) {
+            
+        //     font-size: 146px;
+        //     line-height: 1.5;
+        //     margin-bottom: 0;
+        //     }
+        // }
+    
+// }
+
